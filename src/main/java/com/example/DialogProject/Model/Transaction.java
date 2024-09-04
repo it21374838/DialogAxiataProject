@@ -4,6 +4,8 @@ public class Transaction {
     private String sourceAccountNumber;
     private String destinationAccountNumber;
     private double amount;
+
+    //Getters and Setters
     
     public String getSourceAccountNumber() {
         return sourceAccountNumber;

@@ -11,6 +11,7 @@ import com.example.DialogProject.Model.Account;
 import com.example.DialogProject.Service.AccountService;
 
 @RestController
+//Path to postman to create accounts
 @RequestMapping("/api/accounts")
 public class AccountController {
     @Autowired

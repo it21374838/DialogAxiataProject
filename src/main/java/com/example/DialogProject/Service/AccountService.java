@@ -9,7 +9,7 @@ import com.example.DialogProject.Model.Account;
 
 @Service
 public class AccountService {
-    private Map<String, Account> accountMap = new HashMap<>();
+    private Map<String, Account> accountMap = new HashMap<>(); //Data holding part [static]
 
     // Create a new account
     public Account createAccount(String accountNumber, double initialBalance) {

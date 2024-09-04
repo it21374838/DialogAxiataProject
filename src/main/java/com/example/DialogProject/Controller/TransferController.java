@@ -11,7 +11,7 @@ import com.example.DialogProject.Model.Transaction;
 import com.example.DialogProject.Service.TransferService;
 
 @RestController
-@RequestMapping("/api/transfers")
+@RequestMapping("/api/transfers")//path to transfer operations
 public class TransferController {
     @Autowired
     private TransferService transferService;
